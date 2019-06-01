@@ -53,9 +53,12 @@ Return element + 1
 Const return = numbers.filter(numbers => number > 72 && number < 88);
 Console.log(return);
 
+   
+   
+   
+     // 3. Display the product of all numbers using reduce
+// Answer:
 
-
-
-
-   // 3. Display the product of all numbers using reduce
-   // Answer:
+const result = numbers.reduce((a, b) => { return a + b });
+console.log(result);
+document.getElementById("reduce").innerHTML 
